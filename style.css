@@ -1,0 +1,31 @@
+/* navigation item styling */ 
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* navigation link styling */
+.nav-link /* class selector */ {
+    text-decoration: none;
+    color: coral;
+}
+
+/* form element styling */
+form {
+    margin: 20px 0;
+}
+
+/* label, input, select styling */ 
+label, input, select {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+/* submit button styling */ 
+#submit-button /* id selector */ {
+    background-color: chocolate;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
