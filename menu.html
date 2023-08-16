@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Same basic metadata as the previous page -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Japanese Ramen Noodles</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+</head>
+<body>
+ <!-- Navbar section -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Ramen House</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <!-- Navbar items linking to different pages -->
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        </ul>
+    </div>
+</nav>
+
+<img src="images/Tori 3 social.jpg" class="img-fluid d-block mx-auto w-25" alt="Open kitchen">
+
+    <!-- Same Navbar section as the previous page -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- ... -->
+    </nav>
+
+    <div class="container">
+        <h1>Place an Order</h1>
+
+        <!-- Bootstrap Grid, which helps in responsive layout -->
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Form to take order details -->
+                <form>
+                    <div class="form-group">
+                        <!-- Text input for Name -->
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <!-- Email input -->
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class=""form-group">
+                    <!-- dropdown for menu items -->
+                    <label for="menu">Choose Menu Item</label>
+                    <select class="form-control" id="menu">
+                        <option value="Shio">Shio</option>
+                        <option value="Tonkotsu">Tonkotsu</option>
+                        <option value="Miso">Miso</option>
+                        <option value="Shoyu">Shoyu</option>
+                    </select>
+                    </div>
+
+                     
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <!-- Image under the dropdown menu -->
+            <img src="images/Tori 2 social.jpg" class="img-fluid d-block mx-auto w-50" alt="Open kitchen">
+            </div>
+        </div>
+    </div>
+
+    <!-- Same JavaScript links as the previous page -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    
+    <!-- a footer for the page -->
+        <footer class="container-fluid bg-dark text-white py-5"> 
+        <!-- "containter-fluid" makes the footer span the full width of the viewport -->
+        <!-- "bg-dark" applies a dark background color -->
+        <!-- "text-white" is white text-->
+        <!-- "py-3" adds padding to the top and bottom of the footer, a larger number is more padding-->
+        <div class="container text-center"> 
+            <!-- Footer Content -->
+            <p>Copyright &copy; 2023 the Japanese Ramen House</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-white">Home</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">About</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
