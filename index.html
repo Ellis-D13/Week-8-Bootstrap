@@ -13,19 +13,21 @@
 
     <!-- Navbar section -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Ramen House</a>
+        <a class="navbar-brand" href="/">
+            <img src="images/RAMEN LOGO.png" alt="Ramen House" class="navbar-logo">
+          </a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <!-- Navbar items linking to different pages -->
                 <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Order</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
         <!-- Main title -->
-        <h1>Welcome to the Japanese Ramen Noodle House</h1>
+        <h1>Welcome to the Japanese Ramen House</h1>
 
         <!-- image for home page -->
         <div class="container">
@@ -37,7 +39,8 @@
         
                 <!-- Second Image: will take up 6 out of 12 columns on medium and larger screens -->
                 <div class="col-md-6">
-                    <img src="images/Tori 9 social.jpg" class="img-fluid" alt="Dine in or Take Out">
+                    <img src="images/Tori 9 social.jpg
+                    " class="img-fluid" alt="Dine in or Take Out">
                 </div>
             </div>
         </div>
@@ -46,8 +49,8 @@
             <thead>
                 <!-- Table header -->
                 <tr>
-                    <th>Type</th>
-                    <th>Description</th>
+                    <th>Ramen Base</th>
+                    <th>Flavor</th>
                     <th>Price</th>
                 </tr>
             </thead>
@@ -85,21 +88,24 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <!-- a footer for the page -->
+<img src="images/under footer.png" class="img-fluid d-block mx-auto w-100" alt="Open kitchen">
     <footer class="container-fluid bg-dark text-white py-5"> 
         <!-- "containter-fluid" makes the footer span the full width of the viewport -->
         <!-- "bg-dark" applies a dark background color -->
         <!-- "text-white" is white text-->
         <!-- "py-3" adds padding to the top and bottom of the footer, a larger number is more padding-->
+        
         <div class="container text-center"> 
             <!-- Footer Content -->
+            
             <p>Copyright &copy; 2023 the Japanese Ramen House</p>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-white">Home</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white">About</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white">Contact</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Order</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Bar Menu</a></li>
             </ul>
         </div>
     </footer>
-
+    
 </body>
 </html>
