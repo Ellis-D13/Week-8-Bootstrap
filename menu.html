@@ -12,7 +12,7 @@
 <body>
  <!-- Navbar section -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="index.html">
         <img src="images/RAMEN LOGO.png" alt="Ramen House" class="navbar-logo">
       </a>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -20,17 +20,14 @@
             <!-- Navbar items linking to different pages -->
             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="menu.html">Order</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Bar Menu</a></li>
         </ul>
     </div>
 </nav>
 
 
-
-    <!-- Same Navbar section as the previous page -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- ... -->
-    </nav>
-
+<!-- containers are the most basic layout element in bootstrap and are required for using the default grid system -->
+<!-- Containers, contain, pad, and center the content within them, and can be nested -->
     <div class="container">
         <h1>Place an Order</h1>
 
@@ -109,7 +106,20 @@
 </div>
 </div>
 
-<img src="images/Tori 2 social.jpg" class="img-fluid d-block mx-auto w-50" alt="Open kitchen">
+      <!-- image for home page -->
+      <div class="container">
+        <div class="row">
+            <!-- First Image: will take up 6 out of 12 columns on medium and larger screens -->
+            <div class="col-md-6">
+                <img src="images/Tori 3 social.jpg" class="img-fluid" alt="Tonkotsu Ramen">
+            </div>
+    
+            <!-- Second Image: will take up 6 out of 12 columns on medium and larger screens -->
+            <div class="col-md-6">
+                <img src="images/Tori 2 social.jpg" class="img-fluid" alt="Dine in or Take Out">
+            </div>
+        </div>
+    </div>
 
     <!-- Same JavaScript links as the previous page -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
@@ -127,9 +137,9 @@
             <!-- Footer Content -->
             <p>Copyright &copy; 2023 the Japanese Ramen House</p>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="text-white">Home</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white">Order</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white">Bar Menu</a></li>
+                <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                <li class="list-inline-item"><a href="menu.html" class="text-white">Order</a></li>
+                <li class="list-inline-item"><a href="about.html" class="text-white">Bar Menu</a></li>
             </ul>
         </div>
     </footer>

@@ -1,36 +1,112 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <!-- Basic metadata for the webpage -->
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Japanese Ramen Noodles</title>
+       <!-- Link to the Bootstrap CSS -->
+       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+   </head>
+   <body>
+   
+       <!-- Navbar section -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="/">
+               <img src="images/RAMEN LOGO.png" alt="Ramen House" class="navbar-logo">
+             </a>
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                   <!-- Navbar items linking to different pages -->
+                   <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                   <li class="nav-item"><a class="nav-link" href="menu.html">Order</a></li>
+                   <li class="nav-item"><a class="nav-link" href="about.html">Bar Menu</a></li>
+               </ul>
+           </div>
+       </nav>
+       <!-- grid system with 3 card classes to display information horizontally across the webpage -->
+       <div class="container">
+        <h1>Bar Menu</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Tori 5 social.jpg" class="card-img-top" alt="Old Fashioned">
+              <div class="card-body">
+                <p class="card-text">Old Fashioned: A timeless classic, the Old Fashioned is the epitome of a true gentleman's cocktail. Made with a delicate balance of bourbon or rye whiskey, a sugar cube, a few dashes of Angostura bitters, and a twist of citrus rind, this cocktail is served over ice and garnished with a cherry. Its bold yet smooth flavor makes it a beloved choice for whiskey enthusiasts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Tori Bar pic 3.jpg" class="card-img-top" alt="Paloma">
+              <div class="card-body">
+                <p class="card-text">Paloma: Refreshing and vibrant, the Paloma is a delightful Mexican cocktail that's perfect for any summer occasion. Crafted with a blend of tequila, freshly squeezed grapefruit juice, lime juice, and a touch of soda, it's often served over ice with a salt-rimmed glass. The Paloma offers a zesty and invigorating taste, with a hint of sweetness that dances on the palate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Tori 7 social.jpg" class="card-img-top" alt="Sunset Serenade">
+              <div class="card-body">
+                <p class="card-text">Sunset Serenade: Allow your taste buds to embark on a tropical adventure with the Sunset Serenade. A whimsical creation that blends rum, coconut cream, pineapple juice, and a splash of grenadine, this cocktail is shaken to perfection and served over crushed ice. Garnished with a slice of pineapple and a cherry, experience a taste of paradise with every sip.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+       <!-- Card code holds an image and text with a link button for navigation to another page -->
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <!-- the style below contains the width of my element and at 35rem was about center with my other elements -->
+       <div class="card" style="width: 35rem;">
+        <img src="images/Ramen Kawaii.png" class="card-img-top" alt="cute ramen">
+        <div class="card-body">
+          <h5 class="card-title">Are you looking to order Ramen only?</h5>
+          <p class="card-text">Thank you for stopping on our bar menu page, we hope you enjoy a cocktail with us soon.</p>
+          <a href="menu.html" class="btn btn-primary">Ramen Menu</a>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
 
 
 
-    
-    <!-- Title for the product page -->
-    <h1 id="main-header">Our Coffees</h1>
 
-    <!-- Details about product one, Lion's mane Coffee -->
-    <h2 class="subheader">Lion's mane Coffee</h2>
-    <img class="image-style" src="Images/how-to-cook-lions-mane-mushrooms-featured.jpg" alt="Lion's mane Coffee">
-    <p>Our superfood coffee full of minerals and vitamins packs an antiocidant punch!</p>
 
-    <!-- Details about product two, Cordyceps Coffee --><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
-    
-</head>
-<body>
-    <h2 class="subheader">Cordyceps Coffee</h2>
-    <img class="image-style" src="Images/cordyceps natural.jpeg" alt="Cordyceps Coffee">
-    <p>Increase your bodies production of adenosine triphosphate, which is essential for delivering energy to your muscles!</p>
 
-    <!-- Navigation links -->
-    <h3 class="secondary-header">Navigate:</h3>
-    <ul class="nav-list">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="order.html">Place an Order</a></li>
-    </ul>
+
+
+    <!-- Link to JavaScript files needed for Bootstrap functionality -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!-- a footer for the page -->
+<img src="images/under footer.png" class="img-fluid d-block mx-auto w-100" alt="Open kitchen">
+    <footer class="container-fluid bg-dark text-white py-5"> 
+        <!-- "containter-fluid" makes the footer span the full width of the viewport -->
+        <!-- "bg-dark" applies a dark background color -->
+        <!-- "text-white" is white text-->
+        <!-- "py-3" adds padding to the top and bottom of the footer, a larger number is more padding-->
+        
+        <div class="container text-center"> 
+            <!-- Footer Content -->
+            
+            <p>Copyright &copy; 2023 the Japanese Ramen House</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                <li class="list-inline-item"><a href="menu.html" class="text-white">Order</a></li>
+                <li class="list-inline-item"><a href="about.html" class="text-white">Bar Menu</a></li>
+            </ul>
+        </div>
+    </footer>
     
 </body>
 </html>
+
+
+
